@@ -1,0 +1,168 @@
+.footerContainer {
+    background-color: #3e5D74;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.footerInfoContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerTextLogoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer h2, h5, h6{
+    margin-bottom: 0px;
+    color: white;
+}
+
+.footerTextLogoContainer img {
+    width: 110px;
+    padding-right: 6px;
+}
+
+.footerTextLogoContainer img:hover {
+    cursor: pointer;
+}
+
+.linkedIn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.linkedIn img {
+    width: 40px;
+    border-radius: 15px;
+}
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.locationPin, .cellphone, .email {
+    color: beige;
+    margin-right: 20px;
+}
+
+.footerNavBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footerNavBar a {
+    color: white;
+}
+
+.footerNavBar a:hover {
+    color: #000080ab;
+}
+
+.development  {
+    background-color: #39819C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.development img {
+    margin-left: 10px;
+    width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .footerContainer h5 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footerContainer h5 {
+        font-size: 15px;
+    }
+    .footerContainer h6 {
+        font-size: 13px;
+    }
+    .footerTextLogoContainer img {
+        width: 50px;
+    }
+    .footerTextLogoContainer h2 {
+        font-size: 22px;
+    }
+    .linkedIn img {
+        width: 35px;
+    }
+    .development img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footerContainer h5 {
+        font-size: 12px;
+    }
+    .footerContainer h6 {
+        font-size: 11px;
+    }
+    .locationPin, .cellphone, .email {
+        margin-right: 10px;
+    }
+    .footerTextLogoContainer img {
+        width: 40px;
+    }
+    .footerTextLogoContainer h2 {
+        font-size: 18px;
+    }
+    .linkedIn img {
+        width: 25px;
+    }
+    .development img {
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: 375px)  {
+    .footerContainer h5 {
+        font-size: 10px;
+    }
+    .footerContainer h6 {
+        font-size: 9px;
+    }
+    .locationPin, .cellphone, .email {
+        margin-right: 5px;
+        width: 8px;
+    }
+    .footerTextLogoContainer img {
+        width: 35px;
+    }
+    .footerTextLogoContainer h2 {
+        font-size: 16px;
+    }
+    .linkedIn img {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footerContainer h5 {
+        font-size: 8px;
+    }
+    .locationPin, .cellphone, .email {
+        margin-right: 5px;
+        width: 6px;
+    }
+    .footerTextLogoContainer h2 {
+        font-size: 14px;
+    }
+    .linkedIn img {
+        width: 18px;
+    }
+}

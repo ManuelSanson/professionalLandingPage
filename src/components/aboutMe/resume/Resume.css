@@ -1,0 +1,65 @@
+.picture img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+.description p {
+    text-align: justify;
+}
+
+.description p:nth-child(2) {
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .picture img {
+        width: 320px;
+    }
+    .nameDegree h2 {
+        font-size: 24px;
+    }
+    .nameDegree h3 {
+        font-size: 18px;
+    }
+    .description p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .picture img {
+        width: 280px;
+    }
+    .nameDegree h2 {
+        font-size: 22px;
+    }
+    .nameDegree h3 {
+        font-size: 16px;
+    }
+    .description p {
+        font-size: 13px;
+    }
+    .descriptionButton {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .picture img {
+        width: 240px;
+    }
+    .nameDegree h2 {
+        font-size: 18px;
+    }
+    .nameDegree h3 {
+        font-size: 14px;
+    }
+    .description p {
+        font-size: 12px;
+    }
+    .descriptionButton {
+        font-size: 13px;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,142 @@
+.bannerContainer {
+    width: 100%;
+    background-color: beige;
+}
+
+.bannerContainer img {
+    width: 100%;
+}
+
+/* .bannerText {
+    max-width: 60%;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bannerText h2 {
+    margin: 20px;
+    color: #ffffffbe;
+    font-family: Helvetica, sans-serif;
+    font-size: 56px;
+}
+
+.bannerText h3 {
+    margin: 20px;
+    color: #ffffffbe;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+.bannerText h5 {
+    margin: 20px;
+    color: #ffffffbe;
+    font-family: Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+    .bannerContainer {
+        background-size: contain;
+    }
+    .bannerText {
+        margin-left: 20px;
+    }
+    .bannerText h2 {
+        font-size: 48px;
+    }
+    .bannerText h3 {
+        font-size: 28px;
+    }
+    .bannerText h5 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bannerText {
+        margin-left: 10px;
+    }
+    .bannerText h2 {
+        font-size: 40px;
+    }
+    .bannerText h3 {
+        font-size: 25px;
+    }
+    .bannerText h5 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bannerText {
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .bannerText h2 {
+        font-size: 30px;
+    }
+    .bannerText h3 {
+        font-size: 18px;
+    }
+    .bannerText h5 {
+        font-size: 15px;
+    }
+    .contactButton {
+        padding: 3px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 561px) {
+    .bannerText h2 {
+        font-size: 25px;
+        margin: 15px;
+    }
+    .bannerText h3 {
+        font-size: 18px;
+        margin: 15px;
+    }
+    .bannerText h5 {
+        font-size: 13px;
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width: 423px) and (max-width: 560px) {
+    .bannerText h2 {
+        font-size: 22px;
+        margin: 15px;
+    }
+    .bannerText h3 {
+        font-size: 16px;
+        margin: 15px;
+    }
+    .bannerText h5 {
+        font-size: 12px;
+        margin: 15px;
+    }
+    .contactButton {
+        padding: 3px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 422px) {
+    .bannerText h2 {
+        font-size: 20px;
+        margin: 5px;
+    }
+    .bannerText h3 {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .bannerText h5 {
+        font-size: 12px;
+        margin: 5px;
+    }
+    .contactButton {
+        padding: 3px;
+        font-size: 10px;
+    }
+} */

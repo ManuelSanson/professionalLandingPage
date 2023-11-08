@@ -1,0 +1,77 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.contactForm {
+    width: 80%;
+}
+
+.line {
+    height: 1px;
+    background: black;
+    width: 40%;
+}
+
+.orContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.orContact h6 {
+    color: black;
+    margin: 0px;
+}
+
+.communicationMeans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.communicationMean {
+    display: flex;
+    align-items: center;
+}
+
+.communicationMean h6 {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .orContact {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .communicationMeans {
+        flex-direction: column;
+    }
+    .communicationMean {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contactFormContainer h2 {
+        font-size: 22px;
+    }
+    .contactFormContainer h3 {
+        font-size: 20px;
+    }
+    .communicationMean h6 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contactFormContainer h2 {
+        font-size: 19px;
+    }
+    .contactFormContainer h3 {
+        font-size: 16px;
+    }
+    .communicationMean h6 {
+        font-size: 13px;
+    }
+}

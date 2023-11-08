@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TranslatorLandingPage/static/css/main.f9d74609.css",
+    "main.js": "/TranslatorLandingPage/static/js/main.8c26d5a9.js",
+    "static/js/787.28cb0dcd.chunk.js": "/TranslatorLandingPage/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/TranslatorLandingPage/index.html",
+    "main.f9d74609.css.map": "/TranslatorLandingPage/static/css/main.f9d74609.css.map",
+    "main.8c26d5a9.js.map": "/TranslatorLandingPage/static/js/main.8c26d5a9.js.map",
+    "787.28cb0dcd.chunk.js.map": "/TranslatorLandingPage/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9d74609.css",
+    "static/js/main.8c26d5a9.js"
+  ]
+}

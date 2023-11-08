@@ -1,0 +1,87 @@
+.clientsSection {
+    background-color: beige;
+    padding-bottom: 80px;
+}
+
+.carouselContainer {
+    background-color: transparent;
+    max-width: 60%;
+    z-index: -1;
+}
+
+.awssld__content {
+    background-color: transparent;
+    z-index: -1;
+}
+
+.awssld__timer {
+    background-color: transparent;
+}
+
+.carouselContainer img {
+    width: 250px;
+}
+
+.carouselContainer h3 {
+    margin-top: 15px;
+}
+
+.awssld__bullets {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .carouselContainer {
+        max-width: 80%;
+    }
+    .carouselContainer img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carouselContainer img {
+        padding-top: 15px;
+    }
+    .clientsSection h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .carouselContainer img {
+        width: 180px;
+    }
+    .carouselContainer h3 {
+        font-size: 16px;
+    }
+    .clientsSection h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .carouselContainer img {
+        width: 160px;
+    }
+    .carouselContainer h3 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .clientsSection h2 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .carouselContainer img {
+        width: 140px;
+    }
+    .carouselContainer h3 {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .clientsSection h2 {
+        font-size: 14px;
+    }
+}

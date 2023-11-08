@@ -1,0 +1,117 @@
+.serviceContainer {
+    display: flex;
+    margin: 90px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(245, 245, 220, 0.651);
+    border-radius: 20px;
+}
+
+.servicePicture {
+    width: 250px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.serviceDescription {
+    width: 60%;
+    padding: 10px;
+}
+
+.serviceDescription p {
+    font-style: italic;
+    text-align: justify;
+}
+
+.getInTouch {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .serviceDescription p {
+        font-size: 15px;
+    }
+    .getInTouch {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .serviceContainer {
+        flex-direction: column;
+    }
+    .serviceDescription {
+        width: 90%;
+    }
+    .getInTouch {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .serviceContainer {
+        margin: 50px 30px;
+    }
+    .serviceDescription {
+        width: 95%;
+    }
+    .serviceDescription h3 {
+        font-size: 20px;
+    }
+    .getInTouch {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .getInTouch {
+        font-size: 14px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .servicePicture {
+        width: 190px;
+    }
+    .serviceDescription p {
+        font-size: 14px;
+    }
+    .serviceDescription h3 {
+        font-size: 20px;
+    }
+    .getInTouch {
+        font-size: 13px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .getInTouchButton { 
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .servicePicture {
+        width: 180px;
+    }
+    .serviceDescription p {
+        font-size: 13px;
+    }
+    .serviceDescription h3 {
+        font-size: 18px;
+    }
+    .getInTouch {
+        font-size: 12px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .getInTouchButton { 
+        font-size: 13px;
+        padding: 8px;
+    }
+}
+
+
