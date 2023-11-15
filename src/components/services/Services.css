@@ -23,9 +23,43 @@
     text-align: justify;
 }
 
+.specializedServices {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviceCard {
+    width: 25rem;
+}
+
+.serviceCardTitle h3 {
+    font-size: 1.5rem;
+}
+
+.serviceCardText {
+    text-align: justify;
+}
+
+.serviceCardImage {
+    padding: 10px;
+    width: 80%;
+    border-radius: 30%;
+}
+
 .getInTouch {
     margin-right: 80px;
     margin-left: 80px;
+    font-weight: bold;
+}
+
+.questionsContainer {
+    font-family: 'Roboto Slab', serif;
+    color: #3e5D74;
+}
+
+.questionsContainer button {
+    font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -45,9 +79,17 @@
     .serviceDescription {
         width: 90%;
     }
+    .specializedServices {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
     .getInTouch {
         margin-right: 40px;
         margin-left: 40px;
+    }
+    .serviceCard {
+        width: 80%;
     }
 }
 
@@ -113,5 +155,4 @@
         padding: 8px;
     }
 }
-
 
