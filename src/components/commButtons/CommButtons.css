@@ -5,7 +5,7 @@
 }
 
 .commLogosContainer {
-    width: 100%;
+    width: 15%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;

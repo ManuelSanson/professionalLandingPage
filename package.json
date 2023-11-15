@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://manuelsanson.github.io/TranslatorLandingPage",
+  "homepage": "https://manuelsanson.github.io/ProfessionalLandingPage",
   "eslintConfig": {
     "extends": [
       "react-app",

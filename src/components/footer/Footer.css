@@ -76,6 +76,7 @@
 .development img {
     margin-left: 10px;
     width: 50px;
+    padding-bottom: 4px;
 }
 
 @media screen and (max-width: 768px) {

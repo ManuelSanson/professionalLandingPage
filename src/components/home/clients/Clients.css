@@ -9,6 +9,10 @@
     z-index: -1;
 }
 
+.carouselContainer img {
+    border-radius: 50%;
+}
+
 .awssld__content {
     background-color: transparent;
     z-index: -1;
@@ -30,6 +34,35 @@
     display: none;
 }
 
+.opinions{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clientCard {
+    width: 20rem;
+}
+
+.clientCardTitle h3 {
+    font-size: 1.2rem;
+}
+
+.clientCardTitle h4 {
+    font-size: 1rem;
+}
+
+.clientCardImage {
+    padding: 10px;
+    width: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+    .clientCard {
+        width: 230px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .carouselContainer {
         max-width: 80%;
@@ -45,6 +78,23 @@
     }
     .clientsSection h2 {
         font-size: 20px;
+    }
+    .opinions{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .clientCard {
+        width: 80%;
+    }
+    .clientCardImage {
+        width: 90px;
+    }
+    .clientCardTitle {
+        font-size: 16px;
+    }
+    .clientCardText {
+        font-size: 14px;
     }
 }
 
