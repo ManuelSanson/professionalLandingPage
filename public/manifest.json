@@ -1,19 +1,19 @@
 {
-  "short_name": "MS Traducciones",
-  "name": "Manuel Sanson Prado Traducciones",
+  "short_name": "Company Name",
+  "name": "Company Name",
   "icons": [
     {
-      "src": "https://res.cloudinary.com/diqry3ihg/image/upload/v1667418506/TranslatorLandingPage/MSTraducciones_Logo_daheut.png",
+      "src": "https://res.cloudinary.com/dvnpsisg9/image/upload/v1699478074/ProfessionalLandingPage/companylogo-modified_vmmotb.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://res.cloudinary.com/diqry3ihg/image/upload/v1667418506/TranslatorLandingPage/MSTraducciones_Logo_daheut.png",
+      "src": "https://res.cloudinary.com/dvnpsisg9/image/upload/v1699478074/ProfessionalLandingPage/companylogo-modified_vmmotb.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://res.cloudinary.com/diqry3ihg/image/upload/v1667418506/TranslatorLandingPage/MSTraducciones_Logo_daheut.png",
+      "src": "https://res.cloudinary.com/dvnpsisg9/image/upload/v1699478074/ProfessionalLandingPage/companylogo-modified_vmmotb.png",
       "type": "image/png",
       "sizes": "512x512"
     }

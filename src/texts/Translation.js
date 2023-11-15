@@ -28,8 +28,7 @@ i18n
           ClientPosition: "Client Position",
           ClientOpinion: "Client Opinion",
           LinkedInMessage: "FIND ME ON",
-          LinkedInURL:
-            "https://www.linkedin.com/in/manuel-sanson-trans-dev/?locale=en_US",
+          LinkedInURL: "https://www.linkedin.com",
           ReservedRights: "COMPANY NAME - ALL RIGHTS RESERVED",
           DownloadResume: "Download resume",
           Degree: "Title / Occupation",
@@ -91,7 +90,7 @@ i18n
           ClientPosition: "Cargo del Cliente",
           ClientOpinion: "Opinión del Cliente",
           LinkedInMessage: "ENCUÉNTRAME EN",
-          LinkedInURL: "https://www.linkedin.com/in/manuel-sanson-trans-dev/",
+          LinkedInURL: "https://www.linkedin.com",
           ReservedRights: "COMPANY NAME - TODOS LOS DERECHOS RESERVADOS",
           DownloadResume: "Descargar CV",
           Degree: "Título / Ocupación",
